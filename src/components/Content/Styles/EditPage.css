@@ -1,0 +1,19 @@
+.edit-page-container {
+    width: 100%;
+    height: auto;
+}
+
+@media (min-width : 640px) {
+    .edit-page-container {
+        width: 640px;
+        height: auto;
+    }
+}
+
+.edit-page {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items:  center;
+}

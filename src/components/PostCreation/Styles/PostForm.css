@@ -1,0 +1,19 @@
+.post-form-container {
+	width: 100%;
+	height: auto;
+}
+
+@media (min-width : 640px) {
+	.post-form-container {
+		width: 640px;
+		height: auto;
+	}
+}
+
+.post-form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	justify-content: center;
+	align-items:  center;
+}

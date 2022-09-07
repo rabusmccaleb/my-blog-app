@@ -1,0 +1,21 @@
+.header-title-container {
+    height: 100%;
+    display:  grid;
+    place-items: center;
+}
+
+.header-title-container .header-title-link {
+    text-decoration: none;
+}
+
+.header-title-container .header-title-link .header-title {
+    font-size: 20px;
+    color: black;
+    margin-left: 20px;
+}
+
+@media (min-width : 640px) {
+    .header-title-container .header-title-link .header-title {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,17 @@
+.header-links-container {
+    height: 100%;
+    margin-left : 15px;
+    display: grid;
+    place-items : center;
+}
+
+.header-links-container .header-links-a {
+    height: auto;
+    text-decoration: none; 
+}
+
+.header-links-container .header-links-a .header-links-h3{
+    font-size: 14px;
+    color: black;
+}
+

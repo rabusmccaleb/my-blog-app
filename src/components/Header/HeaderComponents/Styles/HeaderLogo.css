@@ -1,0 +1,15 @@
+.header-logo-container {
+    position: relative;
+    margin-left: 20px;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.header-logo-container img {
+    position: relative;
+    width: 50px;
+    aspect-ratio:  1 / 1;
+    border-radius: 10px;
+    box-shadow : 0 0 4px rgba(0,0,0,0.25);
+}
